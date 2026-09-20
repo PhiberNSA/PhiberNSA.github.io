@@ -62,7 +62,7 @@ description: "Análise forense digital, engenharia reversa e deteção de cheats
 
     <div class="service-block">
       <h3>Deteção remota de qualquer tipo de cheat</h3>
-      <p>Com as ferramentas certas de análise forense, é possível detetar remotamente praticamente qualquer tipo de cheat — de killaura a comportamentos mais discretos como <span class="artifact">HideClans</span> (esconder clãs aliadas/só mostrar inimigas) e <span class="artifact">Target</span> (foco automático num alvo até à morte). O processo passa por cruzar processos, módulos carregados e artefactos do sistema com ferramentas como <span class="artifact">System Informer</span> e <span class="artifact">Detect It Easy (DiE)</span>, entre outras, para confirmar exatamente o que está a correr e como se comporta.</p>
+      <p>Com as ferramentas certas de análise forense, é possível detetar remotamente praticamente qualquer tipo de cheat — de killaura a comportamentos mais discretos. O processo passa por cruzar processos, módulos carregados e artefactos do sistema com ferramentas como <span class="artifact">System Informer</span> e <span class="artifact">Detect It Easy (DiE)</span>, entre outras, para confirmar exatamente o que está a correr e como se comporta.</p>
     </div>
   </div>
 </section>
