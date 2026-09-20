@@ -5,7 +5,6 @@ description: "Análise forense digital, engenharia reversa e deteção de cheats
 ---
 
 <div id="top" class="hero wrap">
-  <div class="case-tag"><span class="led"></span> CASE #274317777 · STATUS: ATIVO</div>
   <h1 class="name">Phiber</h1>
   <p class="lede">Análise forense digital, engenharia reversa e deteção de cheats. Ajudo comunidades de FiveM e Minecraft a identificar o que os logs, artefactos e binários realmente mostram.</p>
   <div class="meta-row">
@@ -62,8 +61,8 @@ description: "Análise forense digital, engenharia reversa e deteção de cheats
     </div>
 
     <div class="service-block">
-      <h3>Deteção remota de cheats específicos</h3>
-      <p>Tenho experiência a identificar comportamentos de cheats como <span class="artifact">HideClans</span> e <span class="artifact">Target</span> — respetivamente, esconder clãs aliadas/só mostrar inimigas e foco automático num alvo até à morte — bem como killaura, que costuma ser o mais fácil de confirmar.</p>
+      <h3>Deteção remota de qualquer tipo de cheat</h3>
+      <p>Com as ferramentas certas de análise forense, é possível detetar remotamente praticamente qualquer tipo de cheat — de killaura a comportamentos mais discretos como <span class="artifact">HideClans</span> (esconder clãs aliadas/só mostrar inimigas) e <span class="artifact">Target</span> (foco automático num alvo até à morte). O processo passa por cruzar processos, módulos carregados e artefactos do sistema com ferramentas como <span class="artifact">System Informer</span> e <span class="artifact">Detect It Easy (DiE)</span>, entre outras, para confirmar exatamente o que está a correr e como se comporta.</p>
     </div>
   </div>
 </section>
