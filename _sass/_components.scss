@@ -1,0 +1,204 @@
+.pill{
+  font-family:var(--mono);
+  font-size:12.5px;
+  color:var(--teal);
+  border:1px solid var(--border);
+  padding:5px 10px;
+  border-radius:3px;
+}
+
+/* ---------- ABOUT ---------- */
+.about-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:24px;
+}
+.focus-list{
+  list-style:none;
+  padding:0;
+  margin:20px 0 0;
+  display:grid;
+  gap:14px;
+}
+.focus-list li{
+  display:flex;
+  gap:14px;
+  align-items:flex-start;
+  color:var(--text-muted);
+}
+.focus-list .mark{
+  font-family:var(--mono);
+  color:var(--amber);
+  flex:none;
+}
+.focus-list strong{color:var(--text); font-weight:600;}
+
+/* ---------- SERVICES ---------- */
+.service-block{
+  border:1px solid var(--border);
+  background:var(--bg-panel);
+  border-left:3px solid var(--teal);
+  padding:22px 24px;
+  margin-bottom:18px;
+}
+.service-block h3{color:var(--text);}
+.team-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:14px;
+}
+.team-list span{
+  font-family:var(--mono);
+  font-size:12.5px;
+  color:var(--text-muted);
+  border:1px solid var(--border);
+  padding:4px 9px;
+  border-radius:3px;
+}
+
+/* ---------- CASE LOG ---------- */
+.case{
+  border:1px solid var(--border);
+  background:var(--bg-panel);
+  margin-bottom:20px;
+}
+.case-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:14px 20px;
+  border-bottom:1px solid var(--border-soft);
+  background:var(--bg-elevated);
+}
+.case-id{
+  font-family:var(--mono);
+  font-size:13px;
+  color:var(--amber);
+}
+.case-status{
+  font-family:var(--mono);
+  font-size:11.5px;
+  color:var(--text-faint);
+}
+.case-body{padding:20px;}
+.case-body h4{
+  font-family:var(--mono);
+  font-size:12.5px;
+  color:var(--text-faint);
+  margin:0 0 8px;
+  font-weight:500;
+}
+.case-body .q{
+  color:var(--text-muted);
+  margin-bottom:14px;
+  padding-left:14px;
+  border-left:2px solid var(--border);
+}
+.case-body .a{
+  color:var(--text);
+  margin-bottom:0;
+}
+.artifact{
+  font-family:var(--mono);
+  font-size:.92em;
+  color:var(--teal);
+  background:rgba(90,168,157,.08);
+  padding:1px 5px;
+  border-radius:2px;
+}
+
+/* ---------- STACK ---------- */
+.stack-groups{display:grid; gap:22px;}
+.stack-row{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:10px;
+}
+.stack-row .label{
+  font-family:var(--mono);
+  font-size:12.5px;
+  color:var(--text-faint);
+  width:112px;
+  flex:none;
+}
+.chip{
+  font-family:var(--mono);
+  font-size:12.5px;
+  color:var(--text);
+  border:1px solid var(--border);
+  padding:5px 10px;
+  border-radius:3px;
+}
+
+/* ---------- PROJECTS ---------- */
+.repo{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:baseline;
+  padding:16px 0;
+  border-bottom:1px solid var(--border-soft);
+  text-decoration:none;
+  color:inherit;
+}
+.repo:last-child{border-bottom:none;}
+.repo:hover .repo-name{color:var(--amber);}
+.repo-name{
+  font-family:var(--mono);
+  font-size:15px;
+  color:var(--text);
+}
+.repo-desc{
+  color:var(--text-muted);
+  font-size:14px;
+  margin-top:4px;
+}
+.repo-lang{
+  font-family:var(--mono);
+  font-size:12px;
+  color:var(--text-faint);
+  white-space:nowrap;
+}
+
+/* ---------- CONTACT ---------- */
+.contact-box{
+  border:1px solid var(--border);
+  background:var(--bg-panel);
+  padding:28px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:24px;
+  justify-content:space-between;
+  align-items:center;
+}
+.contact-links{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.contact-links a{
+  font-family:var(--mono);
+  font-size:14.5px;
+  text-decoration:none;
+}
+.cta{
+  display:inline-block;
+  font-family:var(--mono);
+  font-size:14px;
+  color:#0b0f0e;
+  background:var(--amber);
+  padding:11px 18px;
+  border-radius:3px;
+  text-decoration:none;
+  font-weight:600;
+}
+.cta:hover{background:#e8b859; color:#0b0f0e;}
+
+@media (max-width:560px){
+  .contact-box{flex-direction:column; align-items:flex-start;}
+  .stack-row{flex-direction:column; align-items:flex-start;}
+  .stack-row .label{width:auto;}
+  .repo{flex-direction:column;}
+}

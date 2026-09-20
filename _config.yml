@@ -1,0 +1,21 @@
+title: "Phiber"
+description: "Análise forense digital, engenharia reversa e deteção de cheats. Experiência em screenshare para comunidades de FiveM e Minecraft."
+author: "Phiber"
+lang: pt-PT
+
+# GitHub
+github_username: PhiberNSA
+
+markdown: kramdown
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
